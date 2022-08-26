@@ -1,0 +1,129 @@
+body, html{
+    font-family: 'Montserrat', sans-serif;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #efefef; 
+    border-radius: 10px;
+}
+
+/* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #de117b; 
+    border-radius: 10px;
+}
+#nprogress .bar {
+    background: #de117b !important;
+}
+
+#nprogress .peg {
+    box-shadow: 0 0 10px #de117b, 0 0 5px #de117b !important;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: #de117b !important;
+    border-left-color: #de117b !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #de117b; 
+}
+.badge-danger{
+    background: #de117b;
+    border-color: #de117b;
+}
+.btn-danger{
+    background: #de117b;
+    border-color: #de117b;
+}
+.btn-danger:hover{
+    opacity: 0.8;
+    background: #de117b;
+    border-color: #de117b;
+}
+.btn-dark{
+    background: #3e3e3e;
+    border-color: #3e3e3e;
+    color: #ffffff!important;
+}
+.btn-dark:hover{
+    opacity: 0.8;
+    background: #3e3e3e;
+    border-color: #3e3e3e;
+}
+.bg-danger{
+    background: #de117b!important;
+}
+.text-danger{
+    color: #de117b!important;
+}
+.bg-dark{
+    background: #3e3e3e!important;
+}
+
+.active-category-nav{
+    border-bottom: 3px solid black !important;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #3e3e3e!important;
+}
+.what{
+    height:45px;
+}
+footer, .nav-link:hover{
+    color: #de117b!important;
+}
+
+.bread{
+    background-image: linear-gradient(128deg,#1f1f1f,#da147bbf)!important;
+}
+
+.bread h1{
+    font-size: 45.232px!important;
+}
+
+.bread p{
+    font-size: 18px!important;
+}
+
+
+.slider {
+    width: 100%;
+    padding-left: 26px;
+    padding-right: 0;
+}
+
+.slick-slide {
+  margin: 0px 5px;
+
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+/* .slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+} */
