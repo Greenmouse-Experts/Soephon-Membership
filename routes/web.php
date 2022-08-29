@@ -14,9 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Member
-Route::get('/', [App\Http\Controllers\HomePageController::class, 'login']);
+Route::get('/', [App\Http\Controllers\HomePageController::class, 'login'])->name('login');
 Route::post('/member/login', [App\Http\Controllers\HomePageController::class, 'post_member_login'])->name('member.login');
-
 
 Route::get('/logout', [App\Http\Controllers\AdminController::class, 'logout'])->name('logout');
 Route::get('/test', [App\Http\Controllers\HomePageController::class, 'store']);

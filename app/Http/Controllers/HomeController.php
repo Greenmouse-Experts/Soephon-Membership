@@ -72,6 +72,14 @@ class HomeController extends Controller
 
     public function make_payment($id, Request $request) 
     {
+        if(Auth::user()->email == null)
+        {
+            return back()->with([
+                'type' => 'danger',
+                'message' => 'Please update your Profile Email and try again!'
+            ]);
+        }
+
         $Finder = Crypt::decrypt($id);
 
         $due = Due::findorfail($Finder);
