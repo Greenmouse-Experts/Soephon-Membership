@@ -75,7 +75,7 @@ class HomePageController extends Controller
 
     public function store(Request $request)
     {
-        $url = __DIR__.'\test.json';
+        $url = __DIR__.'/test.json';
 
         $string = file_get_contents($url);
         if ($string === false) {
