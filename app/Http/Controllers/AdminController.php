@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Mail;
 use App\Models\User;
 use App\Models\Due;
-use App\Models\Mydue;
+use App\Models\MyDue;
 use App\Models\PaymentHistory;
 
 class AdminController extends Controller
