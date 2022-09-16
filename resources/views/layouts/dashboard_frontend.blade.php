@@ -21,7 +21,7 @@
     </script>
 </head>
 
-<body class="  ">
+<body class="">
 
     <!-- Wrapper Start -->
     <div class="wrapper">
