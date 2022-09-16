@@ -1,6 +1,6 @@
 <div class="iq-sidebar  sidebar-default  ">
     <div class="iq-sidebar-logo d-flex align-items-end justify-content-between">
-        <a href="index.html" class="header-logo">
+        <a href="/" class="header-logo">
             <img src="{{URL::asset('assets/images/logo.png')}}" class="img-fluid rounded-normal light-logo" alt="logo">
         </a>
         <div class="side-menu-bt-sidebar-1">

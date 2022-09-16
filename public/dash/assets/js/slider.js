@@ -1,10 +1,3 @@
-/*
-Template: Datum - Responsive Bootstrap 4 Admin Dashboard Template
-Author: iqonic.design
-Design and Developed by: http://iqonic.design/
-NOTE: This file contains the styling for Slider in Template.
-*/
-
 
 jQuery(document).ready(function() {
   if(typeof $.fn.slick !== typeof undefined){
